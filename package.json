@@ -1,0 +1,22 @@
+{
+  "name": "ndse004",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node weather.js"
+  },
+  "bin": {
+    "weather": "weather.js"
+  },
+  "keywords": [],
+  "author": "theart84",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/yargs": "^17.0.11",
+    "yargs": "^17.5.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2"
+  }
+}
